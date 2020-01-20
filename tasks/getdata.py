@@ -31,10 +31,11 @@ def get_jj_data():
         diffrea = diff/float(w_close)
         write('{0}--{1}--{2}--{3}--{4}\n'.format(w_time,w_close,w_jz,diff,diffrea),'./bob')    
 
-
+def get_now_sh():
+    data = jq.get_price(security='000001.XSHE')
+    print(data)
 
 if __name__ == '__main__':
     login()
-    get_jj_data()
-
-    
+    #get_jj_data()
+    get_now_sh()

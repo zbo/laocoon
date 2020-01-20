@@ -1,8 +1,3 @@
-#-----------------------------------------------------------------------------------------
-# Copyright (c) Microsoft Corporation. All rights reserved.
-# Licensed under the MIT License. See LICENSE in the project root for license information.
-#-----------------------------------------------------------------------------------------
-
 from flask import Flask, render_template
 from pyecharts import options as opts
 from pyecharts.charts import Bar
