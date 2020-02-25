@@ -8,7 +8,7 @@
             "name": "Python: tensorflow",
             "type": "python",
             "request": "launch",
-            "program": "/workspaces/laocoon/tasks/helloworld.py",
+            "program": "/workspaces/laocoon/tasks/hourseprice.py",
             "console": "integratedTerminal"
         },
         {

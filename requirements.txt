@@ -1,4 +1,5 @@
 flask
 pyecharts
-tensorflow
+tensorflow==1.14
 jqdatasdk
+seaborn
