@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Python: LSTM",
+            "type": "python",
+            "request": "launch",
+            "program": "/workspaces/laocoon/jupyter/LSTM/LSTM_uni.py",
+            "console": "integratedTerminal"
+        },
+        {
             "name": "Python: tensorflow",
             "type": "python",
             "request": "launch",

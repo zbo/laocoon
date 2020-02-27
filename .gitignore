@@ -330,3 +330,4 @@ ASALocalRun/
 .mfractor/
 
 *.DS_Store
+jupyter/LSTM/jena_climate_2009_2016.csv
